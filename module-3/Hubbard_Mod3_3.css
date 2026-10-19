@@ -1,0 +1,82 @@
+/*
+Name: Prince Hubbard
+Date: October 19, 2026
+Assignment 3.3: Build a Web Page Exercise - Part 3
+*/
+
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 16px;
+}
+
+#container {
+    margin: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#books {
+    width: 45%;
+    float: left;
+}
+
+#learning {
+    width: 45%;
+    float: right;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+ol {
+    font-weight: 300;
+    padding: 10px;
+    list-style-position: inside;
+}
+
+#books h3,
+#books ol {
+    border: 1px solid red;
+    border-radius: 15px;
+}
+
+#learning h3,
+#learning ol {
+    border: 1px dashed red;
+    border-radius: 15px;
+}
+
+h3 {
+    padding: 10px;
+}
+
+#learning ol {
+    list-style-type: upper-roman;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+#bottom {
+    width: 100%;
+    margin-top: 60%;
+    float: right;
+    margin-bottom: 20px;
+}
+
+#bottom a {
+    float: right;
+}
+
+a {
+    color: #4F3674;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
