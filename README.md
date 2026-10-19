@@ -1,2 +1,6 @@
-# csd-340
-GitHub repository using git and the CLI
+# CSD 340 Web Development with HTML and CSS
+
+## Contributors
+
+- Instructor: Dr. Mortoza Abdullah
+- Prince Hubbard
