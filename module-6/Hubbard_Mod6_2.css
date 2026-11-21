@@ -1,0 +1,110 @@
+/* Prince Hubbard | November 21, 2026 | Assignment 6.2: Build a Web Page - Part 5 */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    padding-bottom: 64px;
+    background-color: #f4f7f8;
+    color: #24323b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 20px;
+    background-color: #173b4d;
+    color: #ffffff;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 400;
+}
+
+#navbar {
+    overflow: hidden;
+    border-bottom: 15px solid #e6a23c;
+    background-color: #286477;
+}
+
+#navbar a {
+    display: block;
+    float: left;
+    padding: 14px 16px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #d9edf0;
+    color: #173b4d;
+}
+
+#container {
+    margin: 2% 5% 0;
+    padding: 10px;
+}
+
+.card {
+    width: 50%;
+    min-width: 300px;
+    max-width: 680px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    padding: 20px 16px 10px;
+    color: #173b4d;
+    font-size: 2em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.card-content {
+    padding: 2px 16px 16px;
+}
+
+.card-content li {
+    padding: 6px 0;
+}
+
+.card-content a {
+    color: #286477;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 54px;
+    background-color: #173b4d;
+}
+
+footer p {
+    float: right;
+    margin: 0;
+    padding: 16px 10px 12px 0;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: italic;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
