@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+Name: Prince Hubbard
+Date: November 21, 2026
+Assignment 9.3: JavaScript Exercise, Part 1
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Prince Hubbard">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel="stylesheet" href="Hubbard_Mod9_3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap">
+</head>
+<body>
+    <div id="container">
+        <h1>Assignment 9.3: JavaScript - Part 1</h1>
+        <h2>A Scene Preview from <em>The Cost of Calm</em></h2>
+        <p>Nora Quinn didn’t trust <span id="blank1">_____</span> that arrived too quickly.</p>
+        <button type="button" onclick="revealWord1()">Reveal word 1</button>
+
+        <p>People fought. They worried. They interrupted each other and changed their minds halfway through a sentence. That <span id="blank2">________</span> was how ordinary life sounded.</p>
+        <button type="button" onclick="revealWord2()">Reveal word 2</button>
+
+        <p>It was the third week of <span id="blank3">________</span>, and lately the town had been getting quieter.</p>
+        <button type="button" onclick="revealWord3()">Reveal word 3</button>
+
+        <p>Three weeks ago, Caleb Martin had paced her office until the old pine floorboards <span id="blank4">_______</span> beneath his sneakers.</p>
+        <button type="button" onclick="revealWord4()">Reveal word 4</button>
+        <hr>
+        <p class="note">Excerpt from <em>The Cost of Calm</em> by P. D. Hubbard.</p>
+        <p><a href="../index.html">Back to the CSD 340 landing page</a></p>
+    </div>
+
+    <script>
+        const word1 = "quiet";
+        const word2 = "friction";
+        const word3 = "February";
+        const word4 = "creaked";
+
+        function revealWord1() {
+            document.getElementById("blank1").textContent = word1;
+        }
+
+        function revealWord2() {
+            document.getElementById("blank2").textContent = word2;
+        }
+
+        function revealWord3() {
+            document.getElementById("blank3").textContent = word3;
+        }
+
+        function revealWord4() {
+            document.getElementById("blank4").textContent = word4;
+        }
+    </script>
+</body>
+</html>
